@@ -5,21 +5,21 @@ var item = [
       "Buttoned Down Men's Classic Fit Button-Collar Pattern Non-Iron Dress Shirt With Pocket",
     price: '$49.00',
     color: 'Grey',
-    image: 'file:///Users/milad/Downloads/81x3tgN0oJL._UY550_.jpg'
+    image: 'shirt-grey.jpg'
   },
   {
     name:
       "Buttoned Down Men's Classic Fit Spread-Collar Solid Non-Iron Dress Shirt",
     price: '$39.00',
     color: 'Pink',
-    image: 'file:///Users/milad/Downloads/A1a3EZfPJcL._UY679_.jpg'
+    image: 'shirt-pink.jpg'
   },
   {
     name:
       "Buttoned Down Men's Slim Fit Spread-Collar Pattern Non-Iron Dress Shirt Without Pocket",
     price: '$49.00',
     color: 'Purple',
-    image: 'file:///Users/milad/Downloads/A1vyL8SkhsL._UY679_.jpg'
+    image: 'shirt-purple.jpg'
   }
 ]
 function $item(item, itemNumber) {
