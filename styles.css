@@ -8,12 +8,12 @@ body {
 }
 
 .layer {
-  height: 100vh;
+  height: 100%;
   width: 100%;
-  position: absolute;
   color: rgb(245, 245, 245);
   margin-right: 0;
   margin-top: 0;
+  position: absolute;
 }
 
 .item {
@@ -78,7 +78,7 @@ body {
   margin: 0.5rem;
 }
 
-.details {
+.item-details {
   position: relative;
   float: right;
   margin-top: 5rem;
@@ -99,5 +99,93 @@ body {
   z-index: 100;
   background-color: rgb(220, 220, 220);
   color: rgb(128, 128, 128);
-  font-family: Montserrat;
+  font-family: 'Montserrat';
+  outline: 0;
+}
+
+.itemDetails {
+  color: black;
+  padding: 1rem;
+  z-index: 1;
+  position: relative;
+}
+
+.more {
+  color: black;
+  padding: 1rem;
+  z-index: 1;
+  margin-left: 3rem;
+  height: 100%;
+  width: 100%;
+}
+
+.content {
+  float: left;
+  width: 40%;
+  z-index: 1;
+  position: relative;
+  height: 100%;
+}
+
+.addCart {
+  position: relative;
+  cursor: pointer;
+  height: 130px;
+  width: 280px;
+  border-radius: 55px;
+  text-align: center;
+  font-size: 46px;
+  font-weight: 200;
+  z-index: 100;
+  background-color: rgb(220, 220, 220);
+  color: rgb(128, 128, 128);
+  font-family: 'Montserrat';
+  outline: 0;
+  bottom: 0;
+  margin-bottom: 160rem;
+  top: 0 auto;
+  margin-left: 3rem;
+}
+
+.itemImage {
+  margin-bottom: 0.5rem;
+  position: relative;
+}
+
+.title {
+  width: 40%;
+  height: 100%;
+  float: left;
+}
+
+.features {
+  color: black;
+  margin-bottom: 3rem;
+  margin-left: 2rem;
+}
+
+.size {
+  font-style: italic;
+  font-size: 1rem;
+  margin-left: 3.5rem;
+  padding: 1rem;
+  color: black;
+  height: 3rem;
+  width: 4rem;
+}
+
+.itemPrice {
+  margin-top: 10rem;
+  font-weight: 600 bold;
+  font-size: 2rem;
+  margin-left: 2rem;
+  color: rgb(128, 128, 128);
+  padding: 1rem;
+}
+
+.itemColor {
+  font-weight: 600 bold;
+  margin-left: 2rem;
+  padding: 1rem;
+  font-size: 40px;
 }
