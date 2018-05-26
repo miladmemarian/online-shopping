@@ -165,7 +165,6 @@ body {
 }
 
 .size {
-  font-style: italic;
   font-size: 1rem;
   margin-left: 3.5rem;
   padding: 1rem;
@@ -188,4 +187,5 @@ body {
   margin-left: 2rem;
   padding: 1rem;
   font-size: 40px;
+  font-style: italic;
 }

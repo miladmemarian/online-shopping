@@ -6,7 +6,7 @@ var items = [
       "Buttoned Down Men's Classic Fit Button-Collar Pattern Non-Iron Dress Shirt With Pocket",
     price: '$49.00',
     color: 'Grey',
-    image: 'shirt-grey.jpg',
+    image: './images/shirt-grey.jpg',
     size: [' S ', ' M ', ' L ', ' XL '],
     details: [
       '100% Supima® Cotton',
@@ -21,7 +21,7 @@ var items = [
       "Buttoned Down Men's Classic Fit Spread-Collar Solid Non-Iron Dress Shirt",
     price: '$39.00',
     color: 'Pink',
-    image: 'shirt-pink.jpg',
+    image: './images/shirt-pink.jpg',
     size: [' M ', ' XL '],
     details: [
       '100% Supima® Cotton',
@@ -36,7 +36,7 @@ var items = [
       "Buttoned Down Men's Slim Fit Spread-Collar Pattern Non-Iron Dress Shirt Without Pocket",
     price: '$49.00',
     color: 'Purple',
-    image: 'shirt-purple.jpg',
+    image: './images/shirt-purple.jpg',
     size: [' S ', ' L ', ' XL '],
     details: [
       'Imported',
@@ -153,7 +153,6 @@ document.addEventListener('click', function (event) {
     )
 
     var $products = document.querySelector('.product')
-    console.log($products)
     $products.style.display = 'none'
 
     $details.style.display = 'block'
